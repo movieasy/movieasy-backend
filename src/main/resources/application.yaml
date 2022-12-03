@@ -4,3 +4,6 @@ spring:
     url: jdbc:mysql://localhost:3306/movieasy?serverTimezone=UTC&characterEncoding=UTF-8
     username: root
     password:
+  jpa:
+    hibernate:
+      ddl-auto: create
